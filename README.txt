@@ -18,3 +18,6 @@ The user should press and hold primary mouse click to draw a rectangle which is 
 5. GraphCUT - pops up a new window and asks the user to select an image using the button 'Open'. Draw a polygon after clicking Mark Polygon Button on the image.
 Double click on the image to finalize the region. Press Run to extract the region from image. The extracted image is used as a query for search
 6. Reset - Used to reset the 'results Image' window
+
+Distance Results- 
+Distances are on a scale from [0 1] based on current weight values

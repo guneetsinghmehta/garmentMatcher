@@ -193,6 +193,7 @@ function[]=searchGUI()
         distance=distance(1:size(closestFilenames,2));
         distance(end+1:numRows*numCols)=0;
         distance=reshape(distance,numRows,numCols);
+        distance=distance/sum(weights(:));
         set(table,'Data',distance);
     end
         
